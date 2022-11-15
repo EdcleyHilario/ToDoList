@@ -1,0 +1,120 @@
+.add-task{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:12px;
+    min-width:300px;
+    padding: 0 1rem;
+}
+@media (min-width:600px){
+    .add-task{
+        padding:0 20%;
+    }
+}
+.container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 12px;
+    height: 72px;
+    background: #262626;
+    border: 1px solid #333333;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    position:relative;
+}
+
+.check{
+    left: 13.64%;
+    right: 13.64%;
+    top: 13.64%;
+    bottom: 13.64%;
+    background: #4EA8DE;
+}
+.p{
+    width: 100%;
+    top: 13.64%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #F2F2F2;
+}
+.p-2{
+  width: 100%;
+    top: 13.64%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #808080;
+    text-decoration-line: line-through;
+}
+
+.trash{
+    left: 25%;
+    right: 23.01%;
+    top: 20.83%;
+    bottom: 20.83%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border-radius: 4px;
+    color:#fff;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    cursor: pointer;
+  }
+
+  .info{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: flex-start;
+    padding: 0px;
+    grap:400px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    position: relative;
+    color: #4EA8DE;
+  }
+  
+  @media (max-width: 540px){
+    .info{flex-direction:column;}
+  }
+
+  
+.create{
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    }
+    .completed{
+      align-items: center;
+      padding: 0px;
+      gap: 8px;
+      color: #5E60CE;
+    }
+    
+    .count{
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 10px;
+    
+    width: 25px;
+    height: 19px;
+    
+    background: #333333;
+    border-radius: 999px;
+    
+    color:  #fff;
+    }

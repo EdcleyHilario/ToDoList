@@ -1,0 +1,73 @@
+.new-task{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 11rem 0;
+    gap: 8px;
+    position: absolute;
+    width: 100%;
+    }
+.input-task{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 14px;
+gap: 8px;
+color: #fff;
+background: #262626;
+border: 1px solid #0D0D0D;
+border-radius: 8px;
+width: 50%;
+}
+
+.input-task:focus{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px;
+  gap: 8px;
+  
+  width: 50%;
+  background: #262626;
+  border: 1px solid #5E60CE;
+  border-radius: 8px;
+}
+
+.btn-add-task{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 14px;
+gap: 8px;
+color: #fff;
+width: 90px;
+height: 48px;
+background: #1E6F9F;
+border: 2px solid #5E60CE;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.btn-add-task:hover{
+  background: #4EA8DE;
+}
+
+.iconClipboard{
+  display: flex;
+  justify-content: center;
+  color: #262626;
+  border-top: 1px solid #262626;
+}
+.pNotaks{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #808080;
+}
+
+
+
